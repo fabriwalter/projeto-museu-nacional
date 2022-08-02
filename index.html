@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Museu Nacional</title>
+
+		<!-- Estilo Customizado -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+		<!-- Normalize -->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+		<!--[if lt IE 9]>
+			<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+
+		<div id="container"> <!-- Início Container -->
+			
+			<header id="cabecalho"> <!-- Início Cabecalho -->
+				
+				<div id="cabecalho-logo">
+					<h1><a href="">
+						<img src="imagens/logo.png">
+					</a></h1>
+				</div>
+
+				<nav> <!-- Início Navegação -->
+					<ul id="cabecalho-lista">
+						<li class="cabecalho-lista-item">
+							<a href="">Home</a>
+						</li>
+						<li class="cabecalho-lista-item">
+							<a href="">Exposições</a>
+						</li>
+						<li class="cabecalho-lista-item">
+							<a href="">Pesquisa</a>
+						</li>
+						<li class="cabecalho-lista-item">
+							<a href="">Acervo</a>
+						</li>
+						<li class="cabecalho-lista-item">
+							<a href="">Vídeos</a>
+						</li>
+						<li class="cabecalho-lista-item">
+							<a href="">Fotos</a>
+						</li>
+						<li class="cabecalho-lista-item">
+							<a href="">Contato</a>
+						</li>
+					</ul>
+				</nav> <!-- Fim Navegação -->
+
+			</header> <!-- Fim Cabecalho -->
+
+			<main>
+				<section id="conteudo-principal">
+					<img src="imagens/museu.png">
+					<img style="margin-left: 16px;" src="imagens/depoimento.png">
+				</section>
+
+				<section id="conteudo-secundario">
+					<h4 class="titulo-conteudo-secundario">VÍDEO: CONHEÇA O MUSEU</h4>
+					<h4 class="titulo-conteudo-secundario">MAPA: ENCONTRE O MUSEU</h4>
+					<aside>
+						<h3 class="titulo-aside"><strong>FAÇA UMA VISITA</strong></h3>
+						<form id="formulario">
+							<label>Data</label>
+							<input type="date" name="data" id="data">
+							<label>Qtd pessoas</label>
+							<input type="number" name="quantidadepessoas" id="quantidadepessoas" min="1" max="5" placeholder="1"><br>
+							<input type="submit" id="disponibilidade" name="disponibilidade" value="Verificar Disponibilidade" style="padding: 10px;">
+						</form>
+					</aside>
+					
+				</section>
+
+				<section class="conteudo-terciario">
+					<div class="exposicoes">
+						<h4 class="titulo-conteudo-secundario">EXPOSIÇÕES</h4>
+						<ul>
+							<li><a href="">Os assustadores insetos</a></li>
+							<li><a href="">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+							<li><a href="">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+							<li><a href="">Plantas do Brasil Central</a></li>
+							<li><a href="">Teresa Cristina: A imperatriz Arqueóloga</a></li>
+							<li><a href="">Arte com Dinossauros</a></li>
+							<li><a href=""><strong>Veja todos (65)</strong></a></li>
+						</ul>
+					</div>
+
+					<div class="historia">
+						<h4 class="titulo-conteudo-secundario">200 ANOS DE HISTÓRIA</h4>
+						<p>
+							Numa ponta que avançava sobre o mar, posteriormente conhecida como Ponte do Calabouço, entre as praias de Piaçaba e Santa Luzia, no centro histórico do Rio de Janeiro, os portugueses construíram em 1603 a Fortaleza que hoje abriga o Museu Histórico Nacional
+						</p>
+						<a href=""><strong>Leia mais</strong></a>
+					</div>
+					<aside class="galeria">
+						<h3 class="titulo-aside">GALERIA DE FOTOS</h3>
+						
+						<div class="galeria-imagens">
+							<a href=""><img class="imagens-galeria" src="imagens/imagem1.jpg"></a>
+							<a href=""><img class="imagens-galeria" src="imagens/imagem2.jpg"></a>
+							<a href=""><img class="imagens-galeria" src="imagens/imagem3.jpg"></a>
+							<a href=""><img class="imagens-galeria" src="imagens/imagem4.jpg"></a>
+						</div>
+					</aside>
+				</section>
+			</main>
+
+			<footer class="rodape">
+				<div class="rodape-conteudo">
+					<ul class="rodape-lista">
+						<li><a href="">Home</a></li>
+						<li><a href="">Exposições</a></li>
+						<li><a href="">Pesquisa</a></li>
+						<li><a href="">Acervo</a></li>
+						<li><a href="">Vídeos</a></li>
+						<li><a href="">Fotos</a></li>
+						<li><a href="">Contato</a></li>
+					</ul>
+					<p>
+						2019 <a href="">Museu Nacional</a> - Todos os direitos reservados
+					</p>
+				</div>
+			</footer>
+
+		</div> <!-- Fim Container -->
+
+	</body>
+</html>
